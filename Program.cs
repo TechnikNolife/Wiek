@@ -14,9 +14,13 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Leksiu to lubi :0");
             }
-            else
+            else if(wiek == 15)
             {
-                Console.WriteLine("Nie no, idziesz do domu");
+                Console.WriteLine("Zostań w domu, nie wychodź");
+            }
+            else 
+            {
+                Console.WriteLine("Uciekaj!");
             }
         }
     }
